@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Rishi </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+body{
+    color:white;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.entire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+   .coding-platform,.social,.content{
+        display: flex;
+        justify-content:space-evenly;
+        width: 100%;
+        
+    }
+    .social{
+        width: 55%;
+    }
+   .coding-platform a,.social a,.content a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(255, 255, 255);
+    border-radius:50% ;
+   }
+
+   .coding-platform a p {
+    font-size: large;
+    font-weight: bolder;
+   }
+   .logo {
+    width:5em;
+    height:5em ;
+}
+.profile{
+    margin-top: 10px;
+    width:5em;
+    height: 5em;
+    border-radius: 50%;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+h2{
+    font-size: 35px;
+    font-weight: 900;
+    
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+}
+h4{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.personal{
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.personal-info{
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+
+
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+   
+
+    /* Adjust other styles for mobile view here */
+    .entire {
+        /* Update your styles for the entire content container */
+        padding: 20px; /* Example padding for better spacing on mobile */
+    }
+
+    .coding-platform, .social, .content {
+        align-items: center;
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .coding-platform a, .social a, .content a {
+    width: 10em;
+    height: 10em;
+    background-color: rgb(255, 255, 255);
+    border-radius:50% ;
+    margin-top: 5px;
+   }
+
+
+    .logo {
+        width: 5em;
+        height: 5em;
+    }
+
+    .profile {
+        width: 8em;
+        height: 8em;
+    }
+
+    /* Adjust font sizes and other styles as needed for mobile readability */
+    h2, h1, h4 {
+        font-size: 24px;
+    }
+
+    .personal-info {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+    <div class="entire">
+    
+    <!-- <h2>Personal Details</h2> -->
+<div class="personal">
+    <img src="logos/profile.JPG" alt="" class="profile">
+    <div class="personal-info">
+        <h4>Hi,I am Arjun Rishi🧑‍💻</h4>
+        <!-- <h4>Computer Science Engineer</h4> -->
+    </div>
+   
+    <!-- <h4>arjunrishi478@gmail.com</h4>
+    <h4>9629479948</h4> -->
+
+</div>
+
+<br>
+<br>
+<!-- <h1 style="text-align: center;">Take a look at my profile in various coding platforms 👇</h1> -->
+    <h2>Coding platforms</h2>
+    
+<br>
+<br>
+    <div class="coding-platform">
+    <a href="https://www.hackerrank.com/arjunrishi478" target="_blank"  >  <img src="logos/HackerRank.png" class="logo" alt="" srcset=""> <p>HackerRank</p> </a>
+    <a href="https://www.codechef.com/users/arjun478" target="_blank" > <img src="logos/Codechef.png" class="logo" alt="" > <p>Code Chef</p> </a>
+
+        <a href="https://leetcode.com/Arjun_Rishi/" target="_blank"> <img src="logos/LeetCode_logo_black.png" alt="" class="logo">  <p>Leetcode</p></a>
+
+        <a href="https://www.skillrack.com/faces/resume.xhtml?id=357803&key=15d0bf66c145724245a20be85a611f1a6420a611" target="_blank"> <img src="logos/skillrack.png" alt="" class="logo"> <p>Skillrack</p></a>
+
+        <a href="https://www.freecodecamp.org/fcc498ea6ea-d982-4d9d-b108-db3c6f83446a" target="_blank"><img src="logos/freecodecamp.png" alt="" class="logo"><p>Free Code Camp</p> </a>
+
+</div>
+
+<br>
+<br>
+
+<!-- <h1>Take a look at my contents  👇</h1> -->
+
+
+<h2>Content Creation</h2>  
+
+<br>
+<br>
+
+<div class="content">
+     <a href="https://medium.com/@arjunrishi478" target="_blank"><img src="logos/medium.png" alt="" class="logo"><p>Medium</p></a>
+    <a href="https://www.linkedin.com/in/arjun-rishi-5a6333220/" target="_blank"><img src="logos/linkedin.png" alt="" class="logo"><p>Linkedin</p></a>
+    <a href="https://github.com/arjun-rishi-2004" target="_blank"><img src="logos/github.png" alt="" class="logo"><p>Github</p></a>
+</div>
+
+<br>
+<br>
+
+<!-- <h1>Lets connect !!!</h1> -->
+
+    <h2>Social Network</h2>
+    
+<br>
+<br>
+    <div class="social">
+    <a href="https://instagram.com/_arjun_rishi_?igshid=MzNlNGNkZWQ4Mg==" target="_blank"> <img src="logos/instagram.jpg" alt="" class="logo"> <p>Instagram</p></a>
+    <a href="https://www.linkedin.com/in/arjun-rishi-5a6333220/" target="_blank"><img src="logos/linkedin.png" alt="" class="logo"><p>Linkedin</p></a>
+</div>
+
+<br>
+<br>
+
+
+</div>
+</body>
+</html>
